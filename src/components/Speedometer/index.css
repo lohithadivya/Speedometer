@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 40vh;
+  width: 40vw;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-style: italic;
+}
+.speed {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.accButton {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+  height: 36px;
+  width: 90px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.brakeButton {
+  color: #cbd5e1;
+  background-color: #07080c;
+  font-family: 'Roboto';
+  border-color: #94a3b8;
+  border-radius: 5px;
+  height: 36px;
+  width: 90px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
